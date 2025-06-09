@@ -1062,7 +1062,7 @@ tui>
 | a-1 | Open5GS UPF v2.7.5 (TUN)<br>2025.06.01 | 0.274 | 0.310 | 0.247 | 0.278 | 0.303 | 0.236 |
 | a-2 | Open5GS UPF v2.7.5 (TAP)<br>2025.06.01 | 0.286 | 0.339 | 0.263 | 0.289 | 0.306 | 0.243 |
 | b | free5GC UPF v1.2.6<br>2025.03.03 | 0.213 | 0.230 | 0.179 | 0.207 | 0.233 | 0.160 |
-| c | UPG-VPP v1.13.0<br>2024.03.25 | 0.153 | 0.189 | 0.133 | 0.157 | 0.168 | 0.102 |
+| c | UPG-VPP v1.13.0<br>2024.03.25 | 0.153 | 0.189 | 0.133 | 0.157 | 0.167 | 0.111 |
 | d | eUPF v0.7.1 (native mode)<br>2025.06.04 | 0.207 | 0.234 | 0.151 | 0.202 | 0.215 | 0.194 |
 
 <details><summary>a-1. logs for Open5GS UPF v2.7.5 (TUN)</summary>
@@ -1310,11 +1310,11 @@ Latency Statistics
 -------------+---------------
 TX pkts      |             11 
 RX pkts      |             11 
-Max latency  |            189 
-Min latency  |            133 
-Avg latency  |            153 
+Max latency  |            167 
+Min latency  |            111 
+Avg latency  |            157 
 -- Window -- |                
-Last max     |            142 
+Last max     |            167 
 Last-1       |                
 Last-2       |                
 Last-3       |                
@@ -1329,7 +1329,7 @@ Last-11      |
 Last-12      |                
 Last-13      |                
 ---          |                
-Jitter       |            260 
+Jitter       |             15 
 ----         |                
 Errors       |              0 
 
@@ -1559,5 +1559,6 @@ I would like to thank all the excellent developers and contributors who develope
 
 ## Changelog (summary)
 
-- [2025.06.9] Initial release. This measurement is an update of the measurement below, adding a latency measurement.  
+- [2025.06.10] Measured the UpLink latency again.
+- [2025.06.09] Initial release. This measurement is an update of the measurement below, adding a latency measurement.  
   [Simple Measurement of UPF Performance 6](https://github.com/s5uishida/simple_measurement_of_upf_performance_6)
