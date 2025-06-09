@@ -89,10 +89,10 @@ Each VMs are as follows.
 **Each VM-DUT(UPFs) are as follows.**
 | # | SW / *packet processing* | Date | Commit | OS |
 | --- | --- | --- | --- | --- |
-| a | Open5GS UPF v2.7.5<br>***user space*** | 2025.06.01 | `13585a34e3d5505dd86d2cdf78c91829f3936851` | Ubuntu 24.04 |
-| b | free5GC UPF<br>(go-upf) v1.2.6<br>***kernel module*** | 2025.03.03 | `88fbd8bb7b86761cbbcf1367acf2df7d81392ce3` | Ubuntu 24.04 |
+| a | Open5GS UPF v2.7.5<br>***user space*** | 2025.06.01 | `9f5d133657850e6167231527514ee1364d37a884` | Ubuntu 24.04 |
+| b | free5GC UPF<br>(go-upf) v1.2.6<br>***kernel module*** | 2025.03.03 | `07801dcf3cfd0516610aae3fa08809cfd0b2497f` | Ubuntu 24.04 |
 | c | UPG-VPP v1.13.0<br>***VPP/DPDK*** | 2024.03.25 | `dfdf64000566d35955d7c180720ff66086bd3572` | Ubuntu 22.04 |
-| d | eUPF v0.7.1<br>***eBPF/XDP*** | 2025.06.04 | `307b80aec8c7bc8fa376e03927c2f5c55a1fd687` | Ubuntu 24.04 |
+| d | eUPF v0.7.1<br>***eBPF/XDP*** | 2025.06.04 | `5653b09a97db9b38e7a03d118649d38f4e95d7a2` | Ubuntu 24.04 |
 
 The network interfaces of each VM except VM-DUT are as follows.
 | VM | Device | Model | Linux Bridge | IP address | Interface |
