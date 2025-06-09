@@ -1559,6 +1559,6 @@ I would like to thank all the excellent developers and contributors who develope
 
 ## Changelog (summary)
 
-- [2025.06.10] Measured the UpLink latency again.
+- [2025.06.10] Measured the UpLink latency for UPG-VPP again.
 - [2025.06.09] Initial release. This measurement is an update of the measurement below, adding a latency measurement.  
   [Simple Measurement of UPF Performance 6](https://github.com/s5uishida/simple_measurement_of_upf_performance_6)
